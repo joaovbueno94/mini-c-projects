@@ -82,7 +82,12 @@ int main(int argc, char *argv[]) {
       read(sourceFileFD, fileBuffer, sourceFileStats.st_size);
       write(targetFileFD, fileBuffer, sourceFileStats.st_size);
     }
+
+    close(targetDirFD);
   }
+
+  close(sourceFileFD);
+  close(targetFileFD);
 
   return 0;
 }
