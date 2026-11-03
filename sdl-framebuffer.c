@@ -1,8 +1,6 @@
 // Copyright 2026 João Vinícius Bueno.
 
 #include <SDL3/SDL.h>
-#include <SDL3/SDL_render.h>
-#include <SDL3/SDL_surface.h>
 #include <stdbool.h>
 #include <stdint.h>
 #include <stdio.h>
